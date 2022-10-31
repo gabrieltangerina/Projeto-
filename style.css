@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    
+}
+
+header{
+    background-color: darkcyan;
+    display:flex;
+    justify-content: space-between;
+    min-height: 70px;
+}
+
+.logo{
+    margin: 8px;
+}
+
+.nav > ul{
+    display: flex;
+    margin: 10px;
+}
+
+.nav > ul > li{
+    margin: 8px;
+    list-style: none;
+    letter-spacing: 1.5px;
+    cursor:pointer;
+}
+
+.nav > ul > li:hover{
+    color: white;
+    transition: 0.3s;
+}
+
