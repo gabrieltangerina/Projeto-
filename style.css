@@ -11,12 +11,14 @@ body{
 header{
     background-color: darkcyan;
     display:flex;
+    flex-direction: row;
     justify-content: space-between;
     min-height: 70px;
 }
 
 .logo{
-    margin: 8px;
+    margin: 16px;
+
 }
 
 .nav > ul{
