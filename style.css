@@ -4,6 +4,7 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 body{
@@ -56,7 +57,6 @@ h1.titulo{
     text-align: center;
     margin: 40px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
 }
 
 .container{
@@ -84,6 +84,11 @@ section > div > img{
     height: 384px;
     margin: 0 auto;
 }
+
+.preço{
+    font-size: 25px;
+}
+
 
 .aviso{
     font-family:'Courier New', Courier, monospace;
