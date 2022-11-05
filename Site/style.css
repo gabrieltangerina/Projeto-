@@ -117,3 +117,13 @@ section > div > img{
     height: 30px;
     padding:7px;
 }
+
+@media (max-width:1024px){
+    .logo{
+        margin: 0 auto;
+    }
+
+    .nav {
+        display: none;
+    }
+}
